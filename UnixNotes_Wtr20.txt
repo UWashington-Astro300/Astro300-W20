@@ -12,13 +12,15 @@ $ cd
 $ cp ~pikaia/setup .   make sure to type the "."
 $ tcsh setup
 
-Skip next two lines
-
-***** Latop users start here *****
-
 $ cd Astro300-W20
-$ git pull
 
+Skip next two lines  -->-----------------------------
+                                                    |
+***** Latop users start here *****                  |
+                                                    |
+$ cd Astro300-W20                                   |
+$ git pull                                          |
+                                                   \ /
 ---------------------------------------------------------------------
 Astronomy 300 - First Day - Command Line Data Exploration
 ---------------------------------------------------------------------
@@ -58,7 +60,6 @@ $ ls
 
 $ rm FILE              rm = "remove"  Delete file (NO RECOVERY!)
 $ ls
-
 
 
 ---------------------------------------------------------------------
