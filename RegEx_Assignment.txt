@@ -1,5 +1,7 @@
 ------------------------------------------------------------------------
-RegEx Assignment
+RegEx Assignment - Due Mon Jan 13 (1 pm)
+
+Answer Template: "RegEx_MyAnswers.txt" <-- Fill-in and upload to Canvas
 ------------------------------------------------------------------------
 
 Part I - Regex Golf is an exercise of trying to find the shortest
@@ -20,17 +22,13 @@ For example, this is the content of the file "golf_00":
 The goal is to find a regex that will match the top set (one, two,
 three), but not match ANY of the bottom set (four, five, six).
 
-This will work:  grep -E 'one|two|three' golf_00
+This will work:  grep -E 'one|two|three' golf_00 - 13 characters - Not a good score
 
-But that regex took 13 characters - Not a good score
-
-This is better:  grep -E 't|n' golf_00
-
-That regex took 3 characters - A much better score.
+This is better:  grep -E 't|n' golf_00 - 3 characters - A much better score.
 
 I have given you 9 holes to play (golf_01 .. golf_09).
 
-The files in the directory Astro300-A19/Data/GOLF
+The files in the directory /Data/GOLF
 
  - You can ONLY use the -E flag. No -v or -o flags allowed!
  - They get harder as you go on.
@@ -43,12 +41,10 @@ Hole | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 |
 ---------------------------------------------------
 Par  | 3  | 5  | 3  | 6  | 5  | 9  | 8  | 12 | 7  |   Total = 58
 
-
 ------------------------------------------------------------------------
 
-
 Part II - The text of the novel "Martin Chuzzlewit" by Charles Dickens
-is contained in the file "Astro300-W20/Novel.txt"
+is contained in the file "Novel.txt"
 
 Determine the letter frequency distribution for "Novel.txt".
 (convert everything to lowercase).
@@ -71,7 +67,7 @@ Take a look at: https://en.wikipedia.org/wiki/Frequency_analysis
 
 You are given 3 coded messages (code1.txt ... code3.txt) in the directory:
 
-Astro300-A19/Data/GOLF/Ravenclaw
+/Data/GOLF/Ravenclaw
 
 The messages are coded with a simple character substitution (i.e. x = a,
 2 = e, for ALL occurrences of "x" and "2" in the message).  Each file
